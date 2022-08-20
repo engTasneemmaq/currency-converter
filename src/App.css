@@ -1,0 +1,54 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body{
+  background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(../assets/currency.png);
+
+ 
+  background-repeat: no-repeat;
+  height: 100%;
+  font-size: 20px;
+  color: rgb(77, 151, 237);
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: auto;
+  padding:5px;
+
+
+}
+
+h1{
+  margin: 0;
+  margin-bottom:  .5rem;
+  font-size: 50px;
+}
+
+input{
+
+  border: 1px solid #333;
+  border-radius: .3rem;
+  padding: .25rem;
+  width: 7em;
+  font-size: 50px;
+  color: blue;
+}
+
+select {
+  margin-left: .5rem;
+  font-size: 50px;
+  color: blue;
+}
+
+.equals {
+  font-weight: bold;
+  font-size: 60px;
+  color: rgb(3, 171, 0);
+}
